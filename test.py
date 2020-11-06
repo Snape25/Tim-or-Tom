@@ -1,4 +1,6 @@
 
+
+
 import random
 from inputimeout import inputimeout, TimeoutOccurred
 
@@ -27,23 +29,12 @@ def game():
 
      except TimeoutOccurred:
        print("Time up")
+       print("Your score is: {}".format(score) )
        break
 
     
-
-
-
 print("Welcome to Tim or tom.Type start to begin")
 pick = input("Input:   ")
 pick = str(pick)
 if pick =="start":
     game()
-
-
-
-
-
-
-
-
-
